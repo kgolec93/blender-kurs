@@ -3,7 +3,6 @@
     <head>
         <title>digital.ARCH</title>
         <meta charset="utf-8"/>
-        <script src="https://unpkg.com/@babel/standalone/babel.min.js"></script>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" type="text/css" href="normalize.css"/>
         <link rel="stylesheet" type="text/css" href="style.css" />
@@ -13,7 +12,7 @@
     </head>
     <body>
         <header>
-            <h1>digital.ARCH</h1>
+            <!-- <h1 style="opacity: 0">digital.ARCH</h1> -->
             <nav>
                 <ul class="nav-menu" id="main-menu">
                     <!-- SCRIPT GENERATED MENU -->
@@ -26,8 +25,8 @@
             <div class="module">
                 <a id="target-top"></a>
                 <div class="image">
-                    <div class="image-bg-container" id="img01">
-                        <div class="text-container-right">
+                    <div class="image-bg-container intro-banner" id="img01">
+                        <div class="text-container text-container-right">
                             <div>
                                 <h1>Wybierz fotorealizm!</h1>
                                 <h3>Już dziś zapisz się na kurs tworzenia profesjonalnych wizualizacji architektonicznych za pomocą Blendera i Photoshopa!</h3> 
@@ -46,17 +45,36 @@
                 <a id="target-kursy"></a>
                 <div class="image">
                     <div class="image-bg-container" id="img02">
-                        <div class="text-container-left">
+                        <div class="text-container text-container-left">
                             <div>
-                                <h1>Wybierz fotorealizm!</h1>
-                                <h3>Już dziś zapisz się na kurs tworzenia profesjonalnych wizualizacji architektonicznych za pomocą Blendera i Photoshopa!</h3> 
+                                <h1>Poznaj nasze kursy</h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="bar">
-                    <div class="" id="intro-text">
+                    <!-- <div class="" id="intro-text">
                         <p style="color: #747474;">Potrzebujesz zrobić wizualizacje swojego projektu do ważnej prezentacji, a nie wiesz jak zrobić to w taki sposób, żeby zachwycić swoich odbiorców? Naucz się szybko tworzyć od podstaw profesjonalne wizualizacje 3d przy pomocy w pełni darmowego programu Blender. Nasze kursy, ukierunkowane szczególnie pod architektów oferują naukę tworzenia grafiki 3d, także przy wykorzystaniu najpopularniejszych aplikacji BIM, takich jak Archicad oraz Revit. Dowiesz się wszystkiego od tworzenia modelu swojego projektu, aż po postprocessing.</p>
+                    </div> -->
+                    <div id="courses">
+                        <div id="course-list-container" class="">
+                            <ul id="course-list">
+                                <li id="descGeneral">O naszych kursach</li>
+                                <li id="descBasic">Wizualizacje w Blenderze - Kurs podstawowy</li>
+                                <li id="descAdv">Wizualizacje w Blenderze - Kurs rozszerzony</li>
+                                <li id="descFull">Zaawansowane modelowanie i postprocessing</li>
+                                <!-- <li id="descPS">Zaawansowany postprocessing</li> -->
+                            </ul>
+                        </div>
+                        <div id="course-description" class="">
+                            <ul class="course-menu">
+                                <li class="desc-active" id="detOpis">OPIS</li>
+                                <li id="detProgram">PROGRAM</li>
+                                <li id="detForma">TERMINY</li>
+                                <li id="detCena">CENA</li>
+                            </ul>
+                            <p id="course-desc-content"></p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -66,10 +84,9 @@
                 <a id="target-dlafirm"></a>
                 <div class="image">
                     <div class="image-bg-container" id="img01">
-                        <div class="text-container-right">
+                        <div class="text-container text-container-right">
                             <div>
-                                <h1>Wybierz fotorealizm!</h1>
-                                <h3>Już dziś zapisz się na kurs tworzenia profesjonalnych wizualizacji architektonicznych za pomocą Blendera i Photoshopa!</h3> 
+                                <h1>Oferta dla firm</h1>
                             </div>
                         </div>
                     </div>
@@ -85,7 +102,7 @@
                 <a id="target-formularz"></a>
                 <div class="image">
                     <div class="image-bg-container" id="img02">
-                        <div class="text-container-left">
+                        <div class="text-container text-container-left">
                             <div>
                                 <h1>Zapisz się już teraz!</h1>
                                 <h3></h3> 
@@ -100,10 +117,9 @@
                     <form id="sign-form">
                         <label for="sign-course">Wybierz swój kurs</label><br>
                         <select name="kurs" id="sign-course">
-                            <option value="Podstawowy">Kurs podstawowy (499zł)</option>
-                            <option value="Zaawansowany">Kurs zaawansowany (699zł)</option>
-                            <option value="Pełny">Pełny kurs (999zł)</option>
-                            <option value="Postprocessing">Postprocessing w Adobe PS (299zł) </option>
+                            <option value="Podstawowy">Wizualizacje architektoniczne - kurs podstawowy (499zł)</option>
+                            <option value="Rozszerzony">Wizualizacje architektoniczne - kurs rozszerzony (799zł)</option>
+                            <option value="Zaawansowany">Zaawansowane modelowanie i postprocessing (499zł)</option>
                         </select><br>
                         <label for="sign-term">Dostępne terminy</label><br>
                         <select name="term" id="sign-term">
@@ -129,10 +145,9 @@
                 <a id="target-kontakt"></a>
                 <div class="image">
                     <div class="image-bg-container" id="img01">
-                        <div class="text-container-right">
+                        <div class="text-container text-container-right">
                             <div>
-                                <h1>Wybierz fotorealizm!</h1>
-                                <h3>Już dziś zapisz się na kurs tworzenia profesjonalnych wizualizacji architektonicznych za pomocą Blendera i Photoshopa!</h3> 
+                                <h1>Kontakt z nami</h1>
                             </div>
                         </div>
                     </div>
@@ -149,6 +164,7 @@
                 Copyright &copy; digital.ARCH Kamil Golec 2018-2019
         </footer>
         <script src="script/script.js"></script>
-        <script src="React-Main.js" type="text/babel"></script> 
+        <script src="script/courses-description.js"></script>
+        <!-- <script src="React-Main.js" type="text/babel"></script>  -->
     </body>
 </html>
