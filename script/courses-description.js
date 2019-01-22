@@ -38,7 +38,7 @@ $(function () {
     let obj = {
         descGeneral : {
             detOpis : `
-                Nasze kursy nauczą Cię wykonywać profesjonalne wizualizacje architektoniczne za pomocą programu Blender 2.8, a także tworzyć wizualizacje typu real-time na całkowice nowym silniku Eevee, a także dowiesz się jak prawidłowo dokonać obróbki statycznych renderów za pomocą Adobe Photoshop.
+                Nasze kursy nauczą Cię wykonywać profesjonalne wizualizacje architektoniczne za pomocą programu Blender 2.8, tworzyć wizualizacje typu real-time na całkowice nowym silniku Eevee, a także dowiesz się jak prawidłowo dokonać obróbki statycznych renderów za pomocą Adobe Photoshop.
             <br>
             <br>
             Uwaga! Niezbędne jest posiadanie na zajęciach własnego laptopa o minimalnej specyfikacji: 
@@ -72,7 +72,7 @@ $(function () {
                 <li>Ustawianiu sceny</li>
                 <li>Importowaniu modeli</li>
                 <li>Pracy z modelem architektonicznym</li>
-                <li>Renderowaniu</li>
+                <li>Renderowaniu na silniku Cycles</li>
                 <li>Postprocessingu w Adobe Photoshop</li>
             </ul>
                 Kurs zakończony jest opracowaniem własnego projektu i stworzeniem jego wizualizacji.

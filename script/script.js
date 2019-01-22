@@ -1,15 +1,21 @@
 $(function() {
 
-    //MENU NAV LIST
+    //////////////////////////////////////////
+    ///////////// MENU NAV LIST //////////////
+    //////////////////////////////////////////
+
     let j = 0;
     
     let icon = `<img id="svg-icon" src="icons/home.svg">`;
 
     let menuList = [
         {name: icon, link: "#target-top"},
+        /////////// DODAĆ GALERIĘ WIZEK W DZIALE NIŻEJ ///////////
+        {name: "DLACZEGO BLENDER", link: "#target-blender"},
         {name: "KURSY WIZUALIZACJI", link: "#target-kursy"},
-        {name: "DLA FIRM", link: "#target-dlafirm"},
+        // {name: "DLA FIRM", link: "#target-dlafirm"},
         {name: "ZAPISZ SIĘ ONLINE!", link: "#target-formularz"},
+        {name: "O NAS", link: "#target-onas"},
         {name: "KONTAKT", link: "#target-kontakt"}
     ];
 
@@ -28,10 +34,14 @@ $(function() {
             }            
         }
     };
-
     menuAppend();
 
-    //SCROLLING TO POINT
+    ///////////////////////////////////////////
+    //////////// SCROLLING TO POINT ///////////
+    ///////////////////////////////////////////
+
+    var scrollTime = 1500;
+
     $('a[href^="#"]').on('click', function(event) {
 
         var target = $( $(this).attr('href') );
@@ -40,8 +50,29 @@ $(function() {
             event.preventDefault();
                 $('html, body').animate({
                     scrollTop: target.offset().top
-                }, 1000);
+                }, scrollTime);
             }
     });
+
+    //////////////////////////////////////////
+    ///////// AVAILABLE TERMS LIST  //////////
+    //////////////////////////////////////////
+
+    let terms = [
+        //// lista dostępnych terminów
+        "1-2.03.2019",
+        "7-8.03.2019",
+        "1-2.04.2019",
+        "7-8.04.2019",
+        "21-22.04.2019"
+    ];
+    function termListCreate() {
+        for (i = 0; i < terms.length; i++) {
+            $("#sign-terms").append(
+                `<option value="${terms[i]}">${terms[i]}</option>`
+            );
+        }
+    };
+    termListCreate();
 
 });

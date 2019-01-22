@@ -1,21 +1,19 @@
 <!DOCTYPE html>
 <html>
     <head>
-        <title>digital.ARCH</title>
+        <title>KursyBlendera.pl - twórz wizualizacje architektoniczne!</title>
         <meta charset="utf-8"/>
         <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
         <link rel="stylesheet" type="text/css" href="normalize.css"/>
         <link rel="stylesheet" type="text/css" href="style.css" />
-        <script crossorigin src="https://unpkg.com/react@16/umd/react.development.js"></script>
-        <script crossorigin src="https://unpkg.com/react-dom@16/umd/react-dom.development.js"></script>
         
     </head>
     <body>
         <header>
-            <!-- <h1 style="opacity: 0">digital.ARCH</h1> -->
+            <h1>Kursy<span style="color: tomato">Blendera</span>.pl</h1>
             <nav>
                 <ul class="nav-menu" id="main-menu">
-                    <!-- SCRIPT GENERATED MENU -->
+                    <!-- JS Menu -->
                 </ul>
             </nav>
         </header>
@@ -42,6 +40,25 @@
             </div>
 
             <div class="module">
+                <a id="target-blender"></a>
+                <div class="image">
+                    <div class="image-bg-container" id="img01">
+                        <div class="text-container text-container-right">
+                            <div>
+                                <h1>Dlaczego właśnie Blender?</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <!-- <div class="" id="intro-text">
+                        <p></p>
+                    </div> -->
+                    <div class="blender-gallery"></div>
+                </div>
+            </div>
+
+            <div class="module">
                 <a id="target-kursy"></a>
                 <div class="image">
                     <div class="image-bg-container" id="img02">
@@ -53,9 +70,6 @@
                     </div>
                 </div>
                 <div class="bar">
-                    <!-- <div class="" id="intro-text">
-                        <p style="color: #747474;">Potrzebujesz zrobić wizualizacje swojego projektu do ważnej prezentacji, a nie wiesz jak zrobić to w taki sposób, żeby zachwycić swoich odbiorców? Naucz się szybko tworzyć od podstaw profesjonalne wizualizacje 3d przy pomocy w pełni darmowego programu Blender. Nasze kursy, ukierunkowane szczególnie pod architektów oferują naukę tworzenia grafiki 3d, także przy wykorzystaniu najpopularniejszych aplikacji BIM, takich jak Archicad oraz Revit. Dowiesz się wszystkiego od tworzenia modelu swojego projektu, aż po postprocessing.</p>
-                    </div> -->
                     <div id="courses">
                         <div id="course-list-container" class="">
                             <ul id="course-list">
@@ -80,7 +94,7 @@
             </div>
             
 
-            <div class="module">
+            <div class="module" style="display: none">
                 <a id="target-dlafirm"></a>
                 <div class="image">
                     <div class="image-bg-container" id="img01">
@@ -111,9 +125,6 @@
                     </div>
                 </div>
                 <div class="bar">
-                    <!-- <div class="" id="intro-text">
-                        <p style="color: #747474;">Potrzebujesz zrobić wizualizacje swojego projektu do ważnej prezentacji, a nie wiesz jak zrobić to w taki sposób, żeby zachwycić swoich odbiorców? Naucz się szybko tworzyć od podstaw profesjonalne wizualizacje 3d przy pomocy w pełni darmowego programu Blender. Nasze kursy, ukierunkowane szczególnie pod architektów oferują naukę tworzenia grafiki 3d, także przy wykorzystaniu najpopularniejszych aplikacji BIM, takich jak Archicad oraz Revit. Dowiesz się wszystkiego od tworzenia modelu swojego projektu, aż po postprocessing.</p>
-                    </div> -->
                     <form id="sign-form">
                         <label for="sign-course">Wybierz swój kurs</label><br>
                         <select name="kurs" id="sign-course">
@@ -122,11 +133,8 @@
                             <option value="Zaawansowany">Zaawansowane modelowanie i postprocessing (499zł)</option>
                         </select><br>
                         <label for="sign-term">Dostępne terminy</label><br>
-                        <select name="term" id="sign-term">
-                            <option value="1">1-2.03.2019</option>
-                            <option value="2">7-8.03.2019</option>
-                            <option value="3">1-2.04.2019</option>
-                            <option value="4">7-8.04.2019</option>
+                        <select name="term" id="sign-terms">
+                            <!-- JS Content  -->
                         </select><br>
                         <label for="sign-name">* Imię i nazwisko</label><br>
                         <input type="text" name="sign-name" id="sign-name" placeholder="Imię i nazwisko"><br>
@@ -138,6 +146,33 @@
 
 
                     </form>
+                </div>
+            </div>
+
+            <div class="module">
+                <a id="target-onas"></a>
+                <div class="image">
+                    <div class="image-bg-container" id="img01">
+                        <div class="text-container text-container-right">
+                            <div>
+                                <h1>Kontakt z nami</h1>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="bar">
+                    <!-- <div class="" id="intro-text">
+                        <p></p>
+                    </div> -->
+                    <div class="row-container">
+                        <div class="half">
+                            <p>par1</p>
+                        </div>
+                        <div class="half">
+                            <p>par2</p>
+                        </div>
+                    </div>
+                    
                 </div>
             </div>
 
@@ -165,6 +200,5 @@
         </footer>
         <script src="script/script.js"></script>
         <script src="script/courses-description.js"></script>
-        <!-- <script src="React-Main.js" type="text/babel"></script>  -->
     </body>
 </html>
