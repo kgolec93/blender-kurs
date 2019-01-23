@@ -11,7 +11,7 @@ $(function() {
     let menuList = [
         {name: icon, link: "#target-top"},
         /////////// DODAĆ GALERIĘ WIZEK W DZIALE NIŻEJ ///////////
-        {name: "DLACZEGO BLENDER", link: "#target-blender"},
+        {name: "DLACZEGO BLENDER?", link: "#target-blender"},
         {name: "KURSY WIZUALIZACJI", link: "#target-kursy"},
         // {name: "DLA FIRM", link: "#target-dlafirm"},
         {name: "ZAPISZ SIĘ ONLINE!", link: "#target-formularz"},
