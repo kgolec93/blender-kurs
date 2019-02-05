@@ -59,42 +59,33 @@ $(function () {
             detOpis : `
                 W kursie podstawowym zdobędziesz wszystkie najważniejsze umiejętności, które w szybki i sprawny sposób pozwolą Ci pracować nad Twoimi projektami graficznymi. Nauka nie będzie podręcznikowa, lecz większość czasu odbywać się będzie poprzez praktykę. Nauczysz się tworzyć wizualizacje od zera, od stworzenia modelu budynku, bądź zaimportowania go, aż po finalny render i podstawową obróbkę graficzną.
                 <br>
-                Kurs poza teorią oparty jest na dużej ilości praktycznych ćwiczeń oraz pracy nad swoim własnym projektem pod czujnym okiem prowadzącego.
+                Kurs poza teorią oparty jest na pracy nad sceną wnętrza, od załadowania plików z podkładami, poprzez stworzenie modelu, teksturowanie, aż po wizualizację.
                 <br>
                 <br>
                 Po zakończeniu kursu otrzymasz certyfikat, a także będziesz posiadać gotowy projekt do swojego portfolio`,
             detProgram : `
-            Podczas 30 godzin kursu dowiesz się wszystkiego o:
+            Podczas 16 godzin kursu dowiesz się wszystkiego o:
             <ul>
                 <li>Obsłudze programu Blender w wesji 2.8</li>
                 <li>Podstawach modelowania</li>
                 <li>Tworzeniu materiałów</li>
                 <li>Ustawianiu sceny</li>
-                <li>Importowaniu modeli</li>
-                <li>Pracy z modelem architektonicznym</li>
+                <li>Importowaniu bloków 3d</li>
                 <li>Renderowaniu na silniku Cycles</li>
-                <li>Postprocessingu w Adobe Photoshop</li>
             </ul>
-                Kurs zakończony jest opracowaniem własnego projektu i stworzeniem jego wizualizacji.
+                Kurs zakończony jest stworzeniem sceny wnętrza, wraz z jego całym wyposażeniem oraz jego fotorealistycznych wizualizacji.
             `,
-            detForma : "ile godzin itp itd BASIC",
-            detCena : "koszt tej całej zabawy BASIC"
-        },
-        descAdv : {
-            detOpis : "opisik hehe hłyt marketingowy ADV",
-            detProgram : `
-             
+            detForma : `Kurs trwa łącznie 16 godzin, przez jeden weekend, po 8 godzin zegarowych każdego dnia, z kilkoma krótkimi przerwami oraz jedną przerwą obiadową. Zajęcia odbywają się w sali konferencyjnej hotelu XXXXXX.<br><br>
+            Najbliższe terminy kursu podstawowego:<br>
             <ul>
-                <li>Zaawansowane modelowanie</li>
-                <li>Praca z plikami zewnętrznymi</li>
-                <li>Obsługa pluginów</li>
-                <li>Podstawy animacji</li>
-                <li>Zaawansowane techniki pracy z projektem</li>
-                <li>Blender Compositor</li>
+                <li>2-3.03.2019</li>
+                <li>16-17.03.2019</li>
+                <li>30-31.03.2019</li>
             </ul>
+            <br>
+            Koszt podstawowego kursu wynosi 499zł za 16 godzin zegarowych zajęć
             `,
-            detForma : "ile godzin itp itd ADV",
-            detCena : "koszt tej całej zabawy ADV"
+            // detCena : "Koszt podstawowego kursu wynosi 499zł za 16 godzin zegarowych zajęć"
         },
         descFull : {
             detOpis : "opisik hehe hłyt marketingowy FULL",
@@ -102,11 +93,29 @@ $(function () {
             detForma : "ile godzin itp itd FULL",
             detCena : "koszt tej całej zabawy FULL"
         },
-        descPS : {
-            detOpis : "opisik hehe hłyt marketingowy PS",
-            detProgram : "jakiś przykłądowy program PS",
-            detForma : "ile godzin itp itd PS",
-            detCena : "koszt tej całej zabawy PS"
+        descAdv : {
+            detOpis : "opisik hehe hłyt marketingowy ADV",
+            detProgram : `
+            <ul>
+                <li>Import z Archicada / Revita / Sketchupa</li>
+                <li>Praca z blokami zewnętrznymi</li>
+                <li>Tworzenie otoczenia budynku</li>
+                <li>Zaawansowane techniki modelowania</li>
+                <li>Ustawianie sceny zewnętrznej</li>
+                <li>Blender Compositor</li>
+                <li>Podstawy postprocessingu w PS</li>
+            </ul>
+            `,
+            detForma : `Kurs trwa łącznie 32 godziny, przez dwa weekendy, po 8 godzin zegarowych każdego dnia, z kilkoma krótkimi przerwami oraz jedną przerwą obiadową. W zakres kursu rozszerzonego wchodzą również zajęcivgZajęcia odbywają się w sali konferencyjnej hotelu XXXXXX.<br><br>
+            Najbliższe terminy kursu rozszerzonego:<br>
+            <ul>
+                <li>2-3.03, 9-10.03.2019</li>
+                <li>16-17.03, 23-24.03.2019</li>
+                <li>30-31.03, 6-7.04.2019</li>
+            </ul>
+            <br>
+            Koszt rozszerzonego kursu wynosi 899zł za 32 godziny zegarowe zajęć
+            `
         }
     }
 

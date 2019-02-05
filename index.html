@@ -45,29 +45,28 @@
                     <div class="image-bg-container" id="img02">
                         <div class="text-container text-container-left">
                             <div>
-                                <h1>Dlaczego właśnie Blender?</h1>
+                                <h1>Poznaj możliwości Blendera</h1>
                             </div>
                         </div>
                     </div>
                 </div>
                 <div class="bar">
                     <div class="blender-nav">
-                            <ul id="blender-nav" class="">
-                                <li class="blender-active" id="">JEST DARMOWY!</li>
-                                <li id="">SZYBKIE MODELOWANIE</li>
-                                <li id="">WIZUALIZACJE</li>
-                                <li id="">ARTWORKI</li>
-                                <li id="">ANIMACJE</li>
-                            </ul>
+                        <ul id="blender-nav" class="">
+                            <li class="blender-active" id="">JEST DARMOWY!</li>
+                            <li id="">SZYBKIE MODELOWANIE</li>
+                            <li id="">WIZUALIZACJE</li>
+                            <li id="">ARTWORKI</li>
+                            <li id="">ANIMACJE</li>
+                        </ul>
                     </div>
                     <div class="row-container">
                         <div class="blender-gallery ">
-                            <div style="width: 50%; height: 100%;" class="">
-
-                            </div>
-                            <div style="width: 50%; height: 100%;" class="row-container">
+                            <div style="width: 100%; height: 100%;" class="row-container">
                                 <img src="icons/arrow.svg" alt="" class="arrow" id="arr-left">
+
                                 <div id="gal-container"></div>
+
                                 <img src="icons/arrow.svg" alt="" class="arrow" id="arr-right">
                             </div>
                         </div>
@@ -92,17 +91,15 @@
                             <ul id="course-list">
                                 <li id="descGeneral">O naszych kursach</li>
                                 <li id="descBasic">Wizualizacje w Blenderze - Kurs podstawowy</li>
-                                <li id="descAdv">Wizualizacje w Blenderze - Kurs rozszerzony</li>
-                                <li id="descFull">Zaawansowane modelowanie i postprocessing</li>
-                                <!-- <li id="descPS">Zaawansowany postprocessing</li> -->
+                                <li id="descFull">Wizualizacje w Blenderze - Kurs rozszerzony</li>
+                                <li id="descAdv">Zaawansowane modelowanie i postprocessing</li>
                             </ul>
                         </div>
                         <div id="course-description" class="">
                             <ul class="course-menu">
-                                <li class="desc-active" id="detOpis">OPIS</li>
+                                <li class="desc-active" id="detOpis">OPIS KURSU</li>
                                 <li id="detProgram">PROGRAM</li>
-                                <li id="detForma">TERMINY</li>
-                                <li id="detCena">CENA</li>
+                                <li id="detForma">CENA I TERMINY</li>
                             </ul>
                             <p id="course-desc-content"></p>
                         </div>
@@ -135,34 +132,39 @@
                     <div class="image-bg-container" id="img04">
                         <div class="text-container text-container-left">
                             <div>
-                                <h1>Zapisz się już teraz!</h1>
+                                <h1>Zapisz się online!</h1>
                                 <h3></h3> 
                             </div>
                         </div>
                     </div>
                 </div>
-                <div class="bar">
-                    <form id="sign-form">
-                        <label for="sign-course">Wybierz swój kurs</label><br>
-                        <select name="kurs" id="sign-course">
-                            <option value="Podstawowy">Wizualizacje architektoniczne - kurs podstawowy (499zł)</option>
-                            <option value="Rozszerzony">Wizualizacje architektoniczne - kurs rozszerzony (799zł)</option>
-                            <option value="Zaawansowany">Zaawansowane modelowanie i postprocessing (499zł)</option>
-                        </select><br>
-                        <label for="sign-term">Dostępne terminy</label><br>
-                        <select name="term" id="sign-terms">
-                            <!-- JS Content  -->
-                        </select><br>
-                        <label for="sign-name">* Imię i nazwisko</label><br>
-                        <input type="text" name="sign-name" id="sign-name" placeholder="Imię i nazwisko"><br>
-                        <label for="sign-email">* Adres email</label><br>
-                        <input type="email" name="sign-email" id="sign-email" placeholder="Email"><br>
-                        <label for="sign-phone">* Numer telefonu</label><br>
-                        <input type="tel" name="sign-phone" id="sign-phone" placeholder="Numer telefonu">
-                        <p>* Pole wymagane</p>
-
-
-                    </form>
+                <div class="bar" >
+                    <div class="row-container" style="justify-content: center">
+                        <div class="col-50">
+                            <div style="margin-top: auto; margin-bottom:auto;">
+                                <form id="sign-form">
+                                    <label for="sign-course">Wybierz swój kurs</label><br>
+                                    <select name="kurs" id="sign-course">
+                                        <!-- JS Content  -->
+                                    </select><br>
+                                    <label for="sign-term">Dostępne terminy</label><br>
+                                    <select name="term" id="sign-terms">
+                                        <!-- JS Content  -->
+                                    </select><br>
+                                    <label for="sign-name">* Imię i nazwisko</label><br>
+                                    <input type="text" name="sign-name" id="sign-name" placeholder="Imię i nazwisko"><br>
+                                    <label for="sign-email">* Adres email</label><br>
+                                    <input type="email" name="sign-email" id="sign-email" placeholder="Email"><br>
+                                    <label for="sign-phone">* Numer telefonu</label><br>
+                                    <input type="tel" name="sign-phone" id="sign-phone" placeholder="Numer telefonu">
+                                    <p>* Pole wymagane</p>
+                                    
+                                    <button type="submit" id="submit-btn">Prześlij formularz!</button>
+                                </form>
+                                <p style="text-align: center; font-size: 0.8rem;">Po przesłaniu formularza skontaktujemy się jeszcze z Tobą w celu ustalenia szczegółów</p>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
 
