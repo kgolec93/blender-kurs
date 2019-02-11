@@ -430,31 +430,3 @@ form p {
     display: none;
 }
 
-@media only screen and (max-width: 1000px){
-    body {
-        overflow: scroll;
-    }
-    #nav-full {
-        display: none;
-    }
-    #nav-drop {
-        display: flex;
-    }
-    header {
-        justify-content: end;
-    }
-    nav {
-        margin-right: 30px;
-        margin-left: auto;
-        color: #c2c2c2;
-    }
-    nav h3 {
-        color: #f1f1f1;
-    }
-    nav ul {
-        display: none;
-    }
-    #intro-text {
-        width: 100%;
-    }
-}
