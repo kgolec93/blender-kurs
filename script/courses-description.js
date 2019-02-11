@@ -87,10 +87,29 @@ $(function () {
             `,
             // detCena : "Koszt podstawowego kursu wynosi 499zł za 16 godzin zegarowych zajęć"
         },
-        descFull : {
+        descExtended : {
             detOpis : "opisik hehe hłyt marketingowy FULL",
-            detProgram : "jakiś przykłądowy program FULL",
-            detForma : "ile godzin itp itd FULL",
+            detProgram : `
+            <ul>
+                <li>Import z Archicada / Revita / Sketchupa</li>
+                <li>Praca z blokami zewnętrznymi</li>
+                <li>Tworzenie otoczenia budynku</li>
+                <li>Zaawansowane techniki modelowania</li>
+                <li>Ustawianie sceny zewnętrznej</li>
+                <li>Blender Compositor</li>
+                <li>Podstawy postprocessingu w PS</li>
+            </ul>
+            `,
+            detForma : `Kurs trwa łącznie 32 godziny, przez dwa weekendy, po 8 godzin zegarowych każdego dnia, z kilkoma krótkimi przerwami oraz jedną przerwą obiadową. W zakres kursu rozszerzonego wchodzą również zajęcivgZajęcia odbywają się w sali konferencyjnej hotelu XXXXXX.<br><br>
+            Najbliższe terminy kursu rozszerzonego:<br>
+            <ul>
+                <li>2-3.03, 9-10.03.2019</li>
+                <li>16-17.03, 23-24.03.2019</li>
+                <li>30-31.03, 6-7.04.2019</li>
+            </ul>
+            <br>
+            Koszt rozszerzonego kursu wynosi 899zł za 32 godziny zegarowe zajęć
+            `,
             detCena : "koszt tej całej zabawy FULL"
         },
         descAdv : {

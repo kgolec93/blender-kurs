@@ -36,7 +36,7 @@ footer {
     font-size: 12px;
     padding: 6px 0px;
     border-top: 1px solid rgba(255,255,255,0.2);
-    background-color: #2b2b2b;
+    background-color: #111111;
     display: flex;
     justify-content: center;
     color: #f1f1f1;
@@ -53,9 +53,9 @@ header {
     background-color: #111111;
     color: #f1f1f1;
     display: flex;
-    justify-content: end;
+    justify-content: center;
     align-items: center;
-    border-bottom: 2px solid #ffffff4b;
+    border-bottom: 1px solid #696969;
     z-index: 30;
 }
 
@@ -67,11 +67,11 @@ header h1 {
     margin-left: 15px;
     font-weight: 100;
 }
-
+/* 
 nav {
     margin-left: auto;
     margin-right: 0;
-}
+} */
 
 nav ul {
     padding: 0px;
@@ -424,4 +424,37 @@ form p {
 
 #sign-form {
     color: #111111;
+}
+
+#nav-drop {
+    display: none;
+}
+
+@media only screen and (max-width: 1000px){
+    body {
+        overflow: scroll;
+    }
+    #nav-full {
+        display: none;
+    }
+    #nav-drop {
+        display: flex;
+    }
+    header {
+        justify-content: end;
+    }
+    nav {
+        margin-right: 30px;
+        margin-left: auto;
+        color: #c2c2c2;
+    }
+    nav h3 {
+        color: #f1f1f1;
+    }
+    nav ul {
+        display: none;
+    }
+    #intro-text {
+        width: 100%;
+    }
 }

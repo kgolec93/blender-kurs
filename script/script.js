@@ -23,12 +23,12 @@ $(function() {
         for (j=0; j<menuList.length; j++) {
             menuList[j].link;
             if(window.location.href.indexOf(menuList[j].link) != -1) {
-                $("#main-menu").append(
+                $(".main-menu").append(
                 `<li class="nav-btn"><a class="link-active" href="${menuList[j].link}"> ${menuList[j].name}</a></li>`
                 );
             }
             else {
-                $("#main-menu").append(
+                $(".main-menu").append(
                     `<li class="nav-btn"><a href="${menuList[j].link}">${menuList[j].name} </a></li>`
                 );
             }            
