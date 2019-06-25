@@ -77,8 +77,14 @@ nav ul {
     padding: 0px;
 }
 
+.main-menu {
+    display: flex;
+    flex-direction: row;
+    margin: 0;
+}
+
 .nav-btn {
-    display: inline-block;
+    display: flex;
 }
 
 .nav-btn a {
